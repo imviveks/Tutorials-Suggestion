@@ -1,0 +1,139 @@
+2017-10-26 15:35:14,913[YYYY-MM-DD HH:MM:SS] ERROR java.lang.NullPointerException
+2017-10-26 15:39:09,973[YYYY-MM-DD HH:MM:SS] ERROR java.lang.NullPointerException
+2017-10-26 15:48:07,083[YYYY-MM-DD HH:MM:SS] ERROR java.lang.NullPointerException
+2017-10-26 15:50:53,479[YYYY-MM-DD HH:MM:SS] ERROR java.lang.NullPointerException
+2017-10-26 15:58:09,211[YYYY-MM-DD HH:MM:SS] ERROR java.lang.NullPointerException
+2017-10-26 15:59:32,751[YYYY-MM-DD HH:MM:SS] ERROR java.lang.NullPointerException
+2017-10-26 16:00:25,179[YYYY-MM-DD HH:MM:SS] ERROR java.lang.NullPointerException
+2017-10-26 16:01:11,482[YYYY-MM-DD HH:MM:SS] INFO  in main
+2017-10-26 16:01:11,482[YYYY-MM-DD HH:MM:SS] ERROR java.lang.NullPointerException
+2017-10-26 16:02:48,163[YYYY-MM-DD HH:MM:SS] INFO  in main
+2017-10-26 16:02:48,163[YYYY-MM-DD HH:MM:SS] INFO  in connection
+2017-10-26 16:02:48,163[YYYY-MM-DD HH:MM:SS] ERROR java.lang.NullPointerException
+2017-10-26 16:04:21,220[YYYY-MM-DD HH:MM:SS] INFO  in main
+2017-10-26 16:04:21,220[YYYY-MM-DD HH:MM:SS] INFO  in connection
+2017-10-26 16:04:21,220[YYYY-MM-DD HH:MM:SS] ERROR java.lang.NullPointerException
+2017-10-26 16:05:07,744[YYYY-MM-DD HH:MM:SS] INFO  in main
+2017-10-26 16:05:07,744[YYYY-MM-DD HH:MM:SS] INFO  in connection
+2017-10-26 16:05:07,744[YYYY-MM-DD HH:MM:SS] ERROR java.lang.NullPointerException
+2017-10-26 16:06:31,254[YYYY-MM-DD HH:MM:SS] INFO  in main
+2017-10-26 16:06:31,270[YYYY-MM-DD HH:MM:SS] INFO  in connection
+2017-10-26 16:06:31,270[YYYY-MM-DD HH:MM:SS] ERROR java.lang.NullPointerException
+2017-10-26 16:06:52,524[YYYY-MM-DD HH:MM:SS] INFO  in main
+2017-10-26 16:06:52,540[YYYY-MM-DD HH:MM:SS] INFO  in connection
+2017-10-26 16:06:52,540[YYYY-MM-DD HH:MM:SS] ERROR java.lang.NullPointerException
+2017-10-26 16:08:03,548[YYYY-MM-DD HH:MM:SS] INFO  in main
+2017-10-26 16:08:03,548[YYYY-MM-DD HH:MM:SS] INFO  in connection
+2017-10-26 16:08:03,548[YYYY-MM-DD HH:MM:SS] ERROR java.lang.NullPointerException
+2017-10-26 16:10:00,888[YYYY-MM-DD HH:MM:SS] INFO  in main
+2017-10-26 16:10:00,888[YYYY-MM-DD HH:MM:SS] INFO  in connection
+2017-10-26 16:10:16,060[YYYY-MM-DD HH:MM:SS] ERROR com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open database "SuggestioDB" requested by the login. The login failed.
+2017-10-26 16:10:16,060[YYYY-MM-DD HH:MM:SS] INFO  nullconnection established
+2017-10-26 16:11:15,709[YYYY-MM-DD HH:MM:SS] INFO  in main
+2017-10-26 16:11:15,709[YYYY-MM-DD HH:MM:SS] INFO  in connection
+2017-10-26 16:11:16,366[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1connection established
+2017-10-26 16:14:23,332[YYYY-MM-DD HH:MM:SS] INFO  in main
+2017-10-26 16:14:23,332[YYYY-MM-DD HH:MM:SS] INFO  in connection
+2017-10-26 16:14:23,879[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1connection established
+2017-10-26 22:12:38,929[YYYY-MM-DD HH:MM:SS] INFO  in main
+2017-10-26 22:12:38,929[YYYY-MM-DD HH:MM:SS] INFO  in connection
+2017-10-26 22:12:39,835[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1connection established
+2017-10-26 22:24:11,736[YYYY-MM-DD HH:MM:SS] INFO  in main
+2017-10-26 22:24:11,768[YYYY-MM-DD HH:MM:SS] INFO  in connection
+2017-10-26 22:24:12,393[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1connection established
+2017-10-27 11:03:09,841[YYYY-MM-DD HH:MM:SS] INFO  in connection
+2017-10-27 11:03:12,878[YYYY-MM-DD HH:MM:SS] ERROR com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near the keyword 'user'.
+2017-10-27 11:03:12,878[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.dao.UserDAO@25a98f
+2017-10-27 11:06:14,885[YYYY-MM-DD HH:MM:SS] INFO  in connection
+2017-10-27 11:06:15,627[YYYY-MM-DD HH:MM:SS] ERROR com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near the keyword 'user'.
+2017-10-27 11:06:15,627[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.dao.UserDAO@25a98f
+2017-10-27 11:32:46,439[YYYY-MM-DD HH:MM:SS] INFO  in connection
+2017-10-27 11:32:48,213[YYYY-MM-DD HH:MM:SS] ERROR com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near the keyword 'user'.
+2017-10-27 11:32:48,213[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.dao.UserDAO@25a98f
+2017-10-27 11:33:41,736[YYYY-MM-DD HH:MM:SS] INFO  in connection
+2017-10-27 11:33:42,305[YYYY-MM-DD HH:MM:SS] ERROR com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near the keyword 'user'.
+2017-10-27 11:33:42,305[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-27 11:33:42,305[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.dao.UserDAO@25a98f
+2017-10-27 11:35:56,917[YYYY-MM-DD HH:MM:SS] INFO  in connection
+2017-10-27 11:35:57,526[YYYY-MM-DD HH:MM:SS] ERROR com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near the keyword 'User'.
+2017-10-27 11:35:57,526[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-27 11:35:57,526[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.dao.UserDAO@25a98f
+2017-10-27 11:36:52,417[YYYY-MM-DD HH:MM:SS] INFO  in connection
+2017-10-27 11:36:52,985[YYYY-MM-DD HH:MM:SS] ERROR com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near the keyword 'user'.
+2017-10-27 11:36:52,985[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-27 11:36:52,985[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.dao.UserDAO@25a98f
+2017-10-27 11:38:31,546[YYYY-MM-DD HH:MM:SS] INFO  in connection
+2017-10-27 11:38:32,274[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.bean.User@127bd23
+2017-10-27 11:38:32,274[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.dao.UserDAO@480dd7
+2017-10-27 11:41:58,060[YYYY-MM-DD HH:MM:SS] INFO  in connection
+2017-10-27 11:41:58,638[YYYY-MM-DD HH:MM:SS] INFO  saurabh
+2017-10-27 11:41:58,638[YYYY-MM-DD HH:MM:SS] INFO  saurabh123
+2017-10-27 11:41:58,638[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.bean.User@127bd23
+2017-10-27 11:41:58,638[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.dao.UserDAO@480dd7
+2017-10-27 12:48:55,187[YYYY-MM-DD HH:MM:SS] INFO  in connection
+2017-10-27 12:48:55,765[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.bean.User@127bd23
+2017-10-27 12:48:55,765[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.dao.UserDAO@480dd7
+2017-10-27 12:48:55,781[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.bean.Category@e81285
+2017-10-27 12:48:55,781[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.bean.Category@e81285
+2017-10-27 12:48:55,781[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.dao.CategoryDAO@c0a365
+2017-10-27 12:49:52,224[YYYY-MM-DD HH:MM:SS] INFO  in connection
+2017-10-27 12:49:52,951[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.bean.User@127bd23
+2017-10-27 12:49:52,951[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.dao.UserDAO@480dd7
+2017-10-27 12:49:52,951[YYYY-MM-DD HH:MM:SS] INFO  pdf
+2017-10-27 12:49:52,951[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.bean.Category@e81285
+2017-10-27 12:49:52,951[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.dao.CategoryDAO@c0a365
+2017-10-27 14:24:44,750[YYYY-MM-DD HH:MM:SS] INFO  in connection
+2017-10-27 14:24:45,336[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.bean.User@127bd23
+2017-10-27 14:24:45,336[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.dao.UserDAO@480dd7
+2017-10-27 14:24:45,446[YYYY-MM-DD HH:MM:SS] INFO  Row Updated
+2017-10-27 14:24:45,446[YYYY-MM-DD HH:MM:SS] INFO  pdf
+2017-10-27 14:24:45,446[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.bean.Category@183967b
+2017-10-27 14:24:45,446[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.dao.CategoryDAO@1423665
+2017-10-27 16:21:25,894[YYYY-MM-DD HH:MM:SS] INFO  in connection
+2017-10-27 16:21:27,019[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.bean.User@127bd23
+2017-10-27 16:21:27,019[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.dao.UserDAO@480dd7
+2017-10-27 16:21:27,098[YYYY-MM-DD HH:MM:SS] INFO  Row Updated
+2017-10-27 16:21:27,098[YYYY-MM-DD HH:MM:SS] INFO  doc
+2017-10-27 16:21:27,098[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.bean.Category@183967b
+2017-10-27 16:28:39,147[YYYY-MM-DD HH:MM:SS] INFO  in connection
+2017-10-27 16:28:39,914[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.bean.User@127bd23
+2017-10-27 16:28:39,914[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.dao.UserDAO@480dd7
+2017-10-27 16:28:39,929[YYYY-MM-DD HH:MM:SS] INFO  doc
+2017-10-27 16:28:39,929[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.bean.Category@e81285
+2017-10-27 16:29:42,098[YYYY-MM-DD HH:MM:SS] INFO  in connection
+2017-10-27 16:29:42,721[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.bean.User@127bd23
+2017-10-27 16:29:42,721[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.dao.UserDAO@480dd7
+2017-10-27 16:29:42,721[YYYY-MM-DD HH:MM:SS] INFO  doc
+2017-10-27 16:29:42,737[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.bean.Category@e81285
+2017-10-27 16:29:42,737[YYYY-MM-DD HH:MM:SS] INFO  In get Categories
+2017-10-27 16:30:49,211[YYYY-MM-DD HH:MM:SS] INFO  in connection
+2017-10-27 16:30:49,821[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.bean.User@127bd23
+2017-10-27 16:30:49,821[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.dao.UserDAO@480dd7
+2017-10-27 16:30:49,821[YYYY-MM-DD HH:MM:SS] INFO  doc
+2017-10-27 16:30:49,821[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.bean.Category@e81285
+2017-10-27 16:30:49,821[YYYY-MM-DD HH:MM:SS] INFO  In try block
+2017-10-27 16:42:37,374[YYYY-MM-DD HH:MM:SS] INFO  in connection
+2017-10-27 16:42:38,095[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.bean.User@127bd23
+2017-10-27 16:42:38,095[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.dao.UserDAO@480dd7
+2017-10-27 16:42:38,095[YYYY-MM-DD HH:MM:SS] INFO  doc
+2017-10-27 16:42:38,095[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.bean.Category@e81285
+2017-10-27 16:42:38,095[YYYY-MM-DD HH:MM:SS] INFO  ppt
+2017-10-27 16:42:38,095[YYYY-MM-DD HH:MM:SS] INFO  pdf
+2017-10-27 16:42:38,095[YYYY-MM-DD HH:MM:SS] INFO  doc
+2017-10-27 16:42:38,095[YYYY-MM-DD HH:MM:SS] INFO  xyz
+2017-10-27 16:42:38,095[YYYY-MM-DD HH:MM:SS] INFO  abc
+2017-10-27 16:42:38,095[YYYY-MM-DD HH:MM:SS] INFO  [com.suggestions.bean.Category@235b8e, com.suggestions.bean.Category@32be31, com.suggestions.bean.Category@bca1e0, com.suggestions.bean.Category@286778, com.suggestions.bean.Category@9ba398]
+2017-10-27 16:42:38,095[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.dao.CategoryDAO@7740a2
+2017-10-27 16:45:58,110[YYYY-MM-DD HH:MM:SS] INFO  in connection
+2017-10-27 16:45:58,706[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.bean.User@127bd23
+2017-10-27 16:45:58,706[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.dao.UserDAO@480dd7
+2017-10-27 16:45:58,706[YYYY-MM-DD HH:MM:SS] INFO  doc
+2017-10-27 16:45:58,706[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.bean.Category@e81285
+2017-10-27 16:45:58,706[YYYY-MM-DD HH:MM:SS] INFO  [com.suggestions.bean.Category@235b8e, com.suggestions.bean.Category@32be31, com.suggestions.bean.Category@bca1e0, com.suggestions.bean.Category@286778, com.suggestions.bean.Category@9ba398]
+2017-10-27 16:45:58,706[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.dao.CategoryDAO@7740a2
+2017-10-28 12:29:06,729[YYYY-MM-DD HH:MM:SS] INFO  in connection
+2017-10-28 15:11:26,414[YYYY-MM-DD HH:MM:SS] INFO  in connection
+2017-10-28 15:11:27,382[YYYY-MM-DD HH:MM:SS] INFO  doc
+2017-10-28 15:11:27,382[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.bean.Category@e63ade
+2017-10-28 15:11:27,398[YYYY-MM-DD HH:MM:SS] INFO  [com.suggestions.bean.Category@18486a3, com.suggestions.bean.Category@11aa95a, com.suggestions.bean.Category@1d176f7, com.suggestions.bean.Category@1fe2924, com.suggestions.bean.Category@bc05a6]
+2017-10-28 15:11:27,399[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.dao.CategoryDAO@b494a6
