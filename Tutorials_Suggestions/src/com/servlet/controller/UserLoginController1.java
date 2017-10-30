@@ -28,6 +28,7 @@ import com.suggetions.entity.ProductEO;
 import com.suggetions.entity.ProductTypeEO;
 
 /**
+ * This class is used to fetch the session and perform operations on the user data and storing the required data in to the cookies
  * Servlet implementation class UserLoginController1
  */
 @WebServlet("/UserLoginController1")

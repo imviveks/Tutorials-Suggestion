@@ -13,6 +13,11 @@ import java.util.Properties;
 
 import org.apache.log4j.Logger;
 
+/**
+ * This is the Database connection class
+ * @author User
+ *
+ */
 	public class JDBCConnection
 	{
 		public static final Logger log= Logger.getLogger(JDBCConnection.class.getName());

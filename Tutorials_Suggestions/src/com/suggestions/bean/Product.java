@@ -1,9 +1,12 @@
 package com.suggestions.bean;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class Product {
 	
 	private int productId; //id of the product
-	private String productName; //name of the product
+	private String productName; //name of the product (ex: Java Black Book PDF,etc.)
 	private int categoryId; // category of the product
 	private int ProductTypeId; // product type of the product
 	

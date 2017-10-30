@@ -1,15 +1,18 @@
 package com.suggestions.bean;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
 /**
  * This is the bean class for the Product Type
  * This class contains the constructors and the setter and getter method for the ProductType
  * @author User
  *
  */
+@XmlRootElement
 public class ProductType {
 	
-	private int productTypeId; 
-	private String productTypeName;
+	private int productTypeId; // Id of the Product Type
+	private String productTypeName; // Product Type Name ex: Java, C++,etc
 	public int getProductTypeId() {
 		return productTypeId;
 	}

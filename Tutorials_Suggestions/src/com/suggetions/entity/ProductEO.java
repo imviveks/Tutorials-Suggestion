@@ -6,6 +6,12 @@ import java.util.ArrayList;
 import com.suggestions.bean.Product;
 import com.suggestions.dao.ProductDAO;
 
+/**
+ * This is the product entity class
+ * This class implements the product service related operations 
+ * @author User
+ *
+ */
 public class ProductEO {
 
 	private Product product;

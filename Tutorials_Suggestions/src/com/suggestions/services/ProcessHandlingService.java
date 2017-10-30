@@ -18,8 +18,18 @@ import com.suggetions.entity.CategoryEO;
 import com.suggetions.entity.ProductEO;
 import com.suggetions.entity.ProductTypeEO;
 
+/**
+ * This is the process handling service class implementing the method to process the input for different type of User 
+ * @author User
+ *
+ */
 public class ProcessHandlingService {
 
+	/**
+	 * This method processes the input for the Admin User and checks for the various entries
+	 * @param request
+	 * @throws SQLException
+	 */
 	public static void processInputsForAdminUser(HttpServletRequest request) throws SQLException {
 		// TODO Auto-generated method stub
 		
@@ -56,18 +66,19 @@ public class ProcessHandlingService {
 			productEO.addProduct();
 			
 		}
-		
-		// Update
-		
-		//Delete
-		
-		//Select
-		
-		
+			
 		
 		// send result to the user back
 	}
 
+	/**
+	 * This method processes the input for normal user and works according to the request and response raised by the normal user
+	 * @param request
+	 * @param response
+	 * @param out
+	 * @throws ServletException
+	 * @throws IOException
+	 */
 	public static void processInputsForNormalUser(HttpServletRequest request,HttpServletResponse response,PrintWriter out ) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		

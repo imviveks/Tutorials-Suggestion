@@ -15,7 +15,8 @@ import com.suggestions.bean.Category;
 import com.suggestions.bean.Product;
 
 /**
- * 
+ * This is a product DAO class
+ * this class contains the CRUD operations performed on the Product Table Data
  * @author User
  *
  */
@@ -51,6 +52,11 @@ public class ProductDAO {
 		return resultSet;
 	}//method ends here
 	
+	/**
+	 * This method is used to add products to the product table
+	 * @param product
+	 * @throws SQLException
+	 */
 	public static void addProducts(Product product) throws SQLException
 	{
 		preparedStatement = connection.prepareStatement(addQuery);
@@ -62,6 +68,13 @@ public class ProductDAO {
 		preparedStatement.executeUpdate();
 	}//method ends here
 	
+	
+	/**
+	 * this method takes product Id as the parameter and returns product associated
+	 * @param productId
+	 * @return
+	 * @throws SQLException
+	 */
 	public static Product getProduct(int productId) throws SQLException
 	{
 		Product product = null;
@@ -80,33 +93,17 @@ public class ProductDAO {
 		{
 			logger.error(e);
 		}
-		//logger.info(category);
 		
 		return product;
 		
-		/*
-		 Category category=null;
-		try{
-			PreparedStatement statement = connection.prepareStatement(selectOneQuery);
-			statement.setInt(1, categoryId);
-			ResultSet resultset = statement.executeQuery();
-			while (resultset.next()) {
-				String categoryName = resultset.getString(2);
-				
-				logger.info(categoryName);
-				category= new Category(categoryName);
-			}
-		}catch(SQLException e)
-		{
-			logger.error(e);
-		}
-		logger.info(category);
-		return category;
-		*/
-		
-		
 	}//method ends here
 	
+
+	/**
+	 * this method is used to get the list of all products in the database
+	 * @return
+	 * @throws SQLException
+	 */
 	public static ArrayList<Product> getProducts() throws SQLException
 	{
 		ArrayList<Product> listOfProducts = new ArrayList<Product>();
@@ -128,6 +125,10 @@ public class ProductDAO {
 		return listOfProducts;
 	}//method ends here
 	
+	
+	/**
+	 * This method is used to fetch all the products on the basis of particular category id and the product type id 
+	 */
 	public static ArrayList<Product> getProductsByCategoryAndProductType(int categoryId, int ProductTypeId) throws SQLException
 	{
 		ArrayList<Product> listOfProducts = new ArrayList<Product>();
@@ -153,7 +154,11 @@ public class ProductDAO {
 		return listOfProducts;
 	}//method ends here
 	
-	
+	/**
+	 * This method is used to delete product on basis of product type id
+	 * @param productTypeId
+	 * @throws SQLException
+	 */
 	public static void deleteProductByProductTypeId(int productTypeId) throws SQLException
 	{
 		preparedStatement = connection.prepareStatement(deleteQuery);
@@ -162,6 +167,11 @@ public class ProductDAO {
 		preparedStatement.executeUpdate();
 	}//method ends here
 	
+	/**
+	 * This method is used to delete products on the basis of category id
+	 * @param categoryId
+	 * @throws SQLException
+	 */
 	public static void deleteProductByCategoryId(int categoryId) throws SQLException
 	{
 		preparedStatement = connection.prepareStatement(deleteQuery);
@@ -171,5 +181,4 @@ public class ProductDAO {
 	}//method ends here
 	
 	
-
 }

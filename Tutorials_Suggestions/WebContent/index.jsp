@@ -4,13 +4,28 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Login Form</title>
+<link href="bootstrap.css" type="text/css" rel="style">
+
 </head>
-<body>
+<body><br><br><br>
+<center><h1>Login</h1></center>
 <form action ="UserLoginController1" method="post">
-   User ID:<input type="text" name="userid"/><br/>
+<table align="center">
+<tr>
+<th align="right">User ID:</th>
+<td><input type="text" name="userid"></td>
+</tr>
+<th align="right">User Password:</th>
+<td><input type="password" name="userPassword"></td>
+</tr>
+<tr>
+<td colspan="2" align="right"><input type="submit" value="Log In" class="btn btn-primary"></td>
+</tr>
+</table>
+  <!--  User ID:<input type="text" name="userid"/><br/>
    User Password:<input type="password" name="userPassword"/></br>
-   <input type="submit" value="Login"/>
+   <input type="submit" value="Login"/> -->
 </form>
 </body>
 </html>

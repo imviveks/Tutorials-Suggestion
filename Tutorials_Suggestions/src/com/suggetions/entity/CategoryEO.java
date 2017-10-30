@@ -6,6 +6,12 @@ import java.util.ArrayList;
 import com.suggestions.bean.Category;
 import com.suggestions.dao.CategoryDAO;
 
+/**
+ * This is the Category Entity Class
+ * this class implements the category service operations
+ * @author User
+ *
+ */
 public class CategoryEO {
 
 	private Category category;

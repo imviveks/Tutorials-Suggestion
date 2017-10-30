@@ -21,6 +21,7 @@
 	%>    
      <form action="LogoutServlet" method="post">
     <input type="submit" value="Logout" />
+    <br>
 	</form> 
 <div> 
 <form action="ProcessHandlerController" method="post"> 
@@ -37,11 +38,10 @@
         <option value="<%=productTypeList.get(i).getProductTypeId()%>"><%=productTypeList.get(i).getProductTypeName()%></option>
     <% } %>
 </select>
-<input type="text" name="query" id="query" size="40" value=""> 
 <input type="submit" value="Search"> 
 <input type="hidden" name="search" value="1"> 
 <input type="hidden" name="userType" value="user"> 
-</form> 
+</form>
 </div> 
 	
 	<table>

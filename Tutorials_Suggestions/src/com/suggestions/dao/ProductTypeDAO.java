@@ -51,7 +51,7 @@ public class ProductTypeDAO {
 	
 	
 	/**
-	 * This method add one user to table
+	 * This method add one product type to table
 	 * @param productType object
 	 * @throws SQLException
 	 */
@@ -69,6 +69,7 @@ public class ProductTypeDAO {
 	 * This method accepts productTypeId as argument and delete one product
 	 * @param 
 	 * @throws SQLException
+	 * not implemented
 	 */
 	public static void deleteProductType(int productTypeId) throws SQLException
 	{
@@ -80,7 +81,7 @@ public class ProductTypeDAO {
 	
 
 	/**
-	 * This method accepts productTypeId as argument and returns one user object
+	 * This method accepts productTypeId as argument and returns one product type object
 	 * @param ProductTypeId
 	 * @return ProductType object
 	 * @throws SQLException
@@ -108,7 +109,7 @@ public class ProductTypeDAO {
 	}
 			
 	/**
-	 * This method is returns List of all product
+	 * This method is returns List of all product types
 	 * @return List of ProductTYpe
 	 * @throws SQLException
 	 */

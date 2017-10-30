@@ -1,5 +1,7 @@
 package com.suggestions.bean;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
 
 /**
  * this is the bean class for the Category
@@ -7,6 +9,8 @@ package com.suggestions.bean;
  * @author User
  *
  */
+
+@XmlRootElement
 public class Category {
 	
 	private int categoryId; //id of the category or artifacts(pdf,ppt,doc)

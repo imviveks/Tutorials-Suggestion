@@ -137,3 +137,5 @@
 2017-10-28 15:11:27,382[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.bean.Category@e63ade
 2017-10-28 15:11:27,398[YYYY-MM-DD HH:MM:SS] INFO  [com.suggestions.bean.Category@18486a3, com.suggestions.bean.Category@11aa95a, com.suggestions.bean.Category@1d176f7, com.suggestions.bean.Category@1fe2924, com.suggestions.bean.Category@bc05a6]
 2017-10-28 15:11:27,399[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.dao.CategoryDAO@b494a6
+2017-10-30 15:40:28,248[YYYY-MM-DD HH:MM:SS] INFO  in connection
+2017-10-30 15:40:31,284[YYYY-MM-DD HH:MM:SS] INFO  com.suggestions.bean.User@10d0686

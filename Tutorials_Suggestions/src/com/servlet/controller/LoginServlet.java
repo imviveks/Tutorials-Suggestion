@@ -19,6 +19,7 @@ import com.suggestions.dao.UserDAO;
 import com.suggestions.database.JDBCConnection;
 
 /**
+ * @author User
  * Servlet implementation class LoginServlet
  */
 @WebServlet("/LoginServlet")
@@ -36,6 +37,7 @@ public class LoginServlet extends HttpServlet {
 //    }
 
 	/**
+	 * method to fetch GET request and response
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -43,6 +45,7 @@ public class LoginServlet extends HttpServlet {
 	}
 
 	/**
+	 * method to fetch POST request and response
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

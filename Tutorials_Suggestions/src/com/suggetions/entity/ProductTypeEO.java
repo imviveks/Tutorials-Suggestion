@@ -6,6 +6,12 @@ import java.util.ArrayList;
 import com.suggestions.bean.ProductType;
 import com.suggestions.dao.ProductTypeDAO;
 
+/**
+ * This is the product type entity class
+ * this class implements product type's service operation
+ * @author User
+ *
+ */
 public class ProductTypeEO {
 
 	private ProductType productType;
